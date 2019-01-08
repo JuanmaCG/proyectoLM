@@ -1,0 +1,247 @@
+html {
+    min-height: 100%;
+}
+body {
+    height:100%;
+}
+
+/* Landing style */
+
+#index {
+    background-image: url("../image/bg/bg-landing.jpg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+
+#am {
+    width: 546px;
+    height: 200px;
+}
+
+#text {
+    margin-top:15px;
+    color: aliceblue;
+}
+
+.text {
+    color: aliceblue;
+}
+
+
+/* navbar  */
+
+#menu i {
+    padding-right: 30px;
+    font-size: 10;
+}
+
+#menu {
+    padding-left: 33%;
+}
+
+.navbar {
+    background-color: #0b202c;
+}
+
+#menu li {
+    padding: 10px;
+}
+
+#ld-info {
+    color: aliceblue;
+    margin-left: 10%;
+}
+
+#ld-info h1 {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+#dm-ico img {
+    height: 20px;
+    width: 20px;
+}
+
+#btn a{
+    margin-top:5px;
+    margin-left:10px; 
+}
+
+/* wow style */
+
+#wow {
+    background-image: url("../image/bg/bg-wow-1.jpg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#content {
+    color: white
+}
+
+#content h3, p{
+    text-align: center
+}
+
+#content h3:nth-child(1) {
+    margin-top: 5%;
+}
+
+.izq {
+    margin-left: 20px;
+}
+
+.clase  {
+    margin-top: 30px;
+    width: 95%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.cl-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cl-img {
+    float: left;
+    margin-top: 30px;
+    margin-right: 15px;
+    height: 241px;
+    width: 300px;
+}
+
+#content p {
+    color: #ebcd81;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#clases h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 100px;
+    color: white;
+}
+
+
+
+#clases p {
+    color: #e9d9b1;
+    font-size: 20px;
+}
+
+/* historia */
+
+#historia{
+    background-image: linear-gradient(#2d77a1, #9fb5c2);
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;  
+}
+
+.founders {
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+.h-text {
+    color:black;
+    font-size: 15px;
+    margin-top: 15px;
+    
+}
+
+#juegos h2{
+    margin-left: 25%;
+}
+
+#t-juegos {
+    border: 1px solid black
+}
+
+
+
+/* blizzcon */
+
+#blizzcon {
+    background-image: linear-gradient(#b4cad6, #2d77a1);
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+
+#blz-tx {
+    margin-top: 10%;
+    color: rgb(15, 0, 0);
+    font-size: 20px;
+}
+
+#titulo {
+    margin-left: 7%;
+    margin-top: 5%; 
+    font-size: 3em
+}
+#blz-video {
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+#left-photo {
+    margin-top: 35px;
+
+}
+
+/* hearthstone */
+
+#hs {
+    background-image: url("../image/bg/bg-hs.jpg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+/* diablo */
+
+#diablo {
+    background-image: url("../image/bg/bg-diablo.jpg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+/* overwatch */
+
+#ow {
+    background-image: url("../image/bg/bg-ow.jpg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
