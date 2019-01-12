@@ -11,7 +11,7 @@
 </head>
 <body id="index">
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.html"><img src="image/Blizzard-logo.gif" height="63" width="100"></a>
+        <a class="navbar-brand" href="index.html"><img src="image/Blizzard-logo.gif" height="63" width="100" alt="blizzard"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,11 +28,12 @@
                 Videojuegos
               </a>
               <div id="dm-ico" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="wow.html"><img src="image/icons/wow-ico.jpg">   WoW</a>
-                <a class="dropdown-item" href="Hearthstone.html"><img src="image/icons/hs-ico.jpg">    Hearthstone</a>
-                <a class="dropdown-item" href="Diablo.html"><img src="image/icons/diablo-ico.jpg">    Diablo</a>
-                <a class="dropdown-item" href="Overwatch.html"><img src="image/icons/ow-ico.png">    Overwatch</a>
+                <a class="dropdown-item" href="wow.html"><img src="image/icons/wow-ico.jpg" alt="logo-wow">   WoW</a>
+                <a class="dropdown-item" href="Hearthstone.html"><img src="image/icons/hs-ico.jpg" alt="logo-hs">    Hearthstone</a>
               </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About-me.html">Sobre mi</a>
             </li>
           </ul>
           <a href="https://twitter.com/JuanmaCG96" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></i>
@@ -42,7 +43,7 @@
     </nav>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" id="info-index">
                     <div id="ld-info">
                         <h1>Bring me your life and I will possess it forever</h1>
                         <div>
@@ -54,31 +55,31 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" id="form-index">
                     <h3 id="text">Si quieres jugar con nosotros dejanos tus datos y nos pondremos en contacto contigo</h3>
                     <form  action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="POST">
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputEmail4" class="text">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            <input name="e-mail" type="email" class="form-control" id="inputEmail4" placeholder="Email">
                           </div>
                           <div class="form-group col-md-6">
                             <label class="text">Nombre</label>
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input name="nombre" type="text" class="form-control" placeholder="Name">
                           </div>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress2" class="text">Rango </label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="ELO en el juego">
+                          <input name="rango" type="text" class="form-control" id="inputAddress2" placeholder="ELO en el juego">
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">Discord</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="EJEMPLO#1234">
+                            <input name="discord" type="text" class="form-control" id="inputCity" placeholder="EJEMPLO#1234">
                           </div>
                           <div class="form-group col-md-6">
                             <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
+                            <select name="juego" id="inputState" class="form-control">
                                 <option selected>Wow</option>
                                 <option>HearthStone</option>
                                 <option>Diablo</option>
@@ -89,7 +90,7 @@
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Sobre ti</label>
-                            <input id="am" type="text" cols="50" rows="10" class="form-control" id="inputAddress" placeholder="Cuentanos sobre tí">
+                            <input name="sobre_ti" id="am" type="text" cols="50" rows="10" class="form-control" id="inputAddress" placeholder="Cuentanos sobre tí">
                           </div>
                         <button type="submit" class="btn btn-primary">Enviar</button>
                       </form>
